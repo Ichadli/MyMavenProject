@@ -13,17 +13,21 @@ public class SeleniumTest {
         WebDriver driver = new ChromeDriver();
         //3- go to google page
        driver.get("https://www.google.com");
+
         System.out.println("title of google="+driver.getTitle());
         System.out.println("Url of google="+driver.getCurrentUrl());
+
         driver.navigate().to("https://www.techno.study");
         String expectedTitle= "Join the best coding bootcamps online and get IT training in the US";
+
        String actualTitle= driver.getTitle();
+
        if (expectedTitle.equals(actualTitle)){
            System.out.println("PASS");
-           System.out.println("Actual Title="+actualTitle);
+           System.out.println("Actual Title= "+actualTitle);
 
        }else System.out.println("FAILED");
-        System.out.println("Actual Title="+actualTitle);
+        System.out.println("Actual Title= "+actualTitle);
 
 
 

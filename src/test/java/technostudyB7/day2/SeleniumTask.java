@@ -12,7 +12,7 @@ public class SeleniumTask {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-
+       
 
         // driver.get("https://demo.seleniumeasy.com/");
         driver.navigate().to("https://demo.seleniumeasy.com/basic-first-form-demo.html");

@@ -39,8 +39,8 @@ public class IsDisplayed {
         System.out.println("Is Hidden Text Displayed?= "+hiddenText.isDisplayed());
 
         System.out.println("\n------After Clicking Button-------");
-        Thread.sleep(5000);
         startButton.click();
+        Thread.sleep(5000);
         System.out.println("Is Hidden Text Displayed?= "+hiddenText.isDisplayed());
 
 

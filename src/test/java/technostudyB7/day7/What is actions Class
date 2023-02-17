@@ -1,0 +1,9 @@
+1.What is Actions Class?
+A- class that we use for special actions
+
+2- like what?
+A- moveover, double Click,holds an element, drag and drop an element, right click,
+ control keyboard keys(enter,shift...)
+
+3. How do you use it?
+A- i create an object of Actions then an Action

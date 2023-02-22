@@ -19,14 +19,22 @@ public class UtilityClass {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
-     public static void quiteDriver(int time){
+     public static void quiteDriver(int time) {
          try {
              Thread.sleep(time);
          } catch (InterruptedException e) {
              throw new RuntimeException(e);
          }
          driver.quit();
-
-
      }
+         public static void Wait( int sec){
+             try {
+                 Thread.sleep(sec * 1000);
+             } catch (InterruptedException e) {
+                 throw new RuntimeException(e);
+             }
+         }
+
+
+
 }

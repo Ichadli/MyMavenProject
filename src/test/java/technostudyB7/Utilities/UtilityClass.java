@@ -32,6 +32,7 @@ public class UtilityClass {
                  Thread.sleep(sec * 1000);
              } catch (InterruptedException e) {
                  throw new RuntimeException(e);
+
              }
          }
 
